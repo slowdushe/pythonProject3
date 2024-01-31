@@ -3,7 +3,7 @@ from django.urls import path
 from Ravshan.views import HomePageView, UserRegisterView, UserLoginView, UserLogoutView, UserHomeView, UserAboutView, \
     UserPostDetailView, UserPostConfirmDeleteView, UserPostsView, UserPostsFormView
 
-app_name = 'shokirov'
+app_name = 'Ravshan'
 urlpatterns = [
     path('', HomePageView.as_view(), name='home-page'),
     path('register/', UserRegisterView.as_view(), name='register'),
